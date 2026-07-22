@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BabyDream</title>
+  <link rel="stylesheet" href="./CSS/estilos.css">
+  <script src="./JS/funciones.js" defer  ></script>
+</head>
+
+<body>
+
+ 
+<header>
+  <h1>BabyDream</h1>
+
+  <button class="menu-hamburguesa" id="menu-btn" aria-label="Abrir menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav-links" id="nav-links">
+    <a href="#inicio">Inicio</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#precios">Precios</a>
+    <a href="#contacto">Contactanos</a>
+  </nav>
+
+  <button id="tema-btn" aria-label="Cambiar tema">
+    🌙
+  </button>
+</header>
+
+
+  <section class="hero" id="inicio">
+
+    <div class="hero-text">
+      <h2>Deja el sufrimiento atrás y conoce el descanso ideal</h2>
+
+      <p>
+        Cansada de no poder dormir comoda?, el dolor de espalda te mata?
+        las almohadas que tienes no son suficientes?, pues no esperes más
+      </p>
+      <button class="btn pedido-btn">Deja de sufrir y comienza a disfrutar</button>
+
+
+    </div>
+
+<div class="hero-image">
+
+    <img
+        id="imagen-principal"
+        src="imagenes/producto1.jpeg"
+        alt="Almohada BabyDream">
+
+    <div class="miniaturas">
+      
+        <img src="imagenes/producto1.jpeg"
+             class="miniatura activa"
+             alt="Vista 1">
+
+        <img src="imagenes/producto2.jpeg"
+             class="miniatura"
+             alt="Vista 2">
+
+        <img src="imagenes/producto3.jpeg"
+             class="miniatura"
+             alt="Vista 3">
+
+        <img src="imagenes/producto4.jpeg"
+             class="miniatura"
+             alt="Vista 4">
+
+    </div>
+
+</div>
+
+  </section>
+
+
+  <section class="features" id="caracteristicas">
+
+    <h3>Características</h3>
+
+    <div class="cards">
+
+      <div class="card">
+        <h4>Soporte de la columna</h4>
+        <p>
+          Optimizado para ofrecer el mejor descanza
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Funda removible</h4>
+        <p>
+          Protección avanzada y facil de lavar
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Soporte para la barriguita</h4>
+        <p>
+          Diseño pensado para aportar el maximo apoyo
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Multiples funcionalidades</h4>
+        <p>
+          Uso posterior para apoyo en la lactancia y soporte del bebe
+        </p>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+<section class="testimonios">
+
+    <h3>Lo que dicen nuestras clientas</h3>
+
+    <div class="testimonio-contenedor">
+
+        <p id="texto-testimonio">
+            "Desde que uso BabyDream puedo dormir mucho mejor."
+        </p>
+
+        <h4 id="autor-testimonio">
+            – María
+        </h4>
+
+    </div>
+
+</section>
+
+<section class="estadisticas">
+
+    <h3>Nuestra experiencia nos respalda</h3>
+
+    <div class="estadisticas-grid">
+
+        <div class="estadistica">
+            <span class="numero" data-valor="700" data-tipo="plus">0</span>
+            <p>Mamás felices</p>
+        </div>
+
+        <div class="estadistica">
+            <span class="numero" data-valor="5" data-tipo="normal">0</span>
+            <p>Años de experiencia</p>
+        </div>
+
+        <div class="estadistica">
+            <span class="numero" data-valor="98" data-tipo="porcentaje">0</span>
+            <p>Recomiendan BabyDream</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+  <section class="cta" id="precios">
+
+    <h3>Comienza a descanzar</h3>
+
+    <p>
+      Únete a miles de madres que ya probaron y recomiendan nuestro producto
+    </p>
+
+    <button class="btn pedido-btn">Hacer pedido</button>
+  </section>
+
+
+  <footer id="contacto">
+<div class="footer-content">
+    <p>© 2026 BabyDream - Todos los derechos reservados</p>
+    
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/almohadasparagestantes" target="_blank" aria-label="Síguenos en Facebook" class="fb-link">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.8z"/>
+        </svg>
+        <span>Síguenos en Facebook</span>
+      </a>
+    </div>
+  </div>
+  </footer>
+
+
+  <button class="whatsapp-flotante" aria-label="Contactar por WhatsApp"> 
+    <img src="imagenes/whatsapp.png" alt="WhatsApp">
+  </button>
+
+
+</body>
+</html>
